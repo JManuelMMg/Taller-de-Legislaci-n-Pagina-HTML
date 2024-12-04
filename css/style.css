@@ -43,9 +43,9 @@ html {
 }
 
 body {
-     color: #444444;
-     font-size: 14px;
-     font-family: 'Poppins', sans-serif;
+     color: #4e4e4e;
+     font-size: 18px;
+     font-family:'Times New Roman', Times, serif;
      line-height: 1.80857;
      font-weight: normal;
 }
@@ -60,16 +60,26 @@ a {
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
 }
+
 .temario {
-     text-align: center; /* Centra el texto */
-     font-size: 24px; /* Tamaño de la fuente */
-     font-weight: bold; /* Negrita */
-     color: #000000; /* Color del texto */
-     margin: 10px 0; /* Espacio arriba y abajo */
-     padding: 10px; /* Espacio interno */
-     border: 2px solid rgb(161, 161, 161); /* Borde rojo */
-     border-radius: 5px; /* Bordes redondeados */
-     background-color: #b8b8b8; /* Color de fondo */
+     text-align: center;
+     /* Centra el texto */
+     font-size: 24px;
+     /* Tamaño de la fuente */
+     font-weight: bold;
+     /* Negrita */
+     color: #000000;
+     /* Color del texto */
+     margin: 10px 0;
+     /* Espacio arriba y abajo */
+     padding: 10px;
+     /* Espacio interno */
+     border: 2px solid rgb(161, 161, 161);
+     /* Borde rojo */
+     border-radius: 5px;
+     /* Bordes redondeados */
+     background-color: #b8b8b8;
+     /* Color de fondo */
 }
 
 h1,
@@ -87,13 +97,14 @@ h6 {
      color: #d13232;
      margin: 0
 }
-li{
-     text-align: left; 
+
+li {
+     text-align: left;
 }
 
 h1 {
      font-size: 24px;
-     color:rgb(0, 0, 0);
+     color: rgb(0, 0, 0);
 }
 
 h2 {
@@ -125,26 +136,33 @@ h6 {
 }
 
 /* Centrar títulos */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
      text-align: center;
      margin-top: 20px;
      margin-bottom: 20px;
      font-weight: bold;
      color: rgb(0, 0, 0)
- }
- 
- /* Justificar el contenido y aplicar espaciado de línea */
- p, .content {
+}
+
+/* Justificar el contenido y aplicar espaciado de línea */
+p,
+.content {
      text-align: justify;
      line-height: 1.5;
      margin: 5px 2;
- }
- 
- /* Espaciado adicional para párrafos */
- p {
+     
+}
+
+/* Espaciado adicional para párrafos */
+p {
      padding: 0 15px;
- }
- 
+}
+
 a {
      color: #000000;
      text-decoration: none;
@@ -167,7 +185,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -182,13 +200,13 @@ img {
 .lead {
      font-size: 18px;
      line-height: 30px;
-     color: #767676;
+     color: #000000;
      margin: 0;
      padding: 0;
 }
 
 .form-control:focus {
-     border-color: #ffffff !important;
+     border-color: #646464 !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -233,7 +251,7 @@ button {
 .loader_bg {
      position: fixed;
      z-index: 9999999;
-     background: #fff;
+     background: #ffffff;
      width: 100%;
      height: 100%;
 }
@@ -263,32 +281,33 @@ button {
 /*-- navigation--*/
 
 .navigation.navbar {
-     font-family:'Times New Roman', Times, serif;
+     font-family: 'Times New Roman', Times, serif;
      float: center;
      padding-top: 35px !important;
      padding: 0;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 10;
-     margin: 40px 10px;
-     color: #000000;
-     font-size: 16px;
+     padding: 5;
+     margin: 0px 0px;
+     color: #ffffff;
+     font-size: 18px;
      line-height: 20px;
      font-weight: 500;
      text-transform: uppercase;
+
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #1b7500;
+     color: #008dc0;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #5e0000;
+     color: #cb0000;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -298,7 +317,7 @@ button {
 .header {
      width: 100%;
      padding: 35px 0px 35px 0px;
-     background: #ffffff;
+     background: #000000;
 }
 
 .logo {
@@ -316,6 +335,7 @@ button {
      background-repeat: no-repeat;
      min-height: 804px;
      padding-top: 17%;
+     filter: contrast(150%) brightness(100%);
 }
 
 .text-bg {
@@ -351,16 +371,16 @@ button {
      max-width: 243px;
      height: 66px;
      padding: 17px 0;
-     background-color: #989898;
-     color: #000000;
+     background-color: #74747475;
+     color: #0babd7;
      text-transform: uppercase;
      font-weight: bold;
-     border-radius: 50px;
+     border-radius: 70px;
 }
 
 
 .text-bg .read_more:hover {
-     background-color: #0d0c0c;
+     background-color: #ffffff;
 }
 
 .banner .carousel-indicators {
@@ -441,7 +461,7 @@ button {
 }
 
 .read_more {
-     font-size: 17px;
+     font-size: 19px;
      background-color: #712e2e;
      color: #fff;
      padding: 12px 0px;
@@ -500,6 +520,7 @@ button {
      width: 452px;
      right: 0;
      border-radius: 5px;
+
 }
 
 .about_img figure {
@@ -553,7 +574,7 @@ button {
 .gallery {
      margin-top: 80px;
      padding-top: 80px;
-     background-color: #eae7e7;
+     background-color: #000000;
      padding-bottom: 50px;
 }
 
@@ -603,7 +624,7 @@ button {
 }
 
 .galleryh3 p {
-     font-size: 17px;
+     font-size: 20px;
      line-height: 31px;
      color: #fff;
 }
@@ -621,7 +642,7 @@ button {
 .text_de p {
      color: #262626;
      padding-bottom: 50px;
-     font-size: 17px;
+     font-size: 20px;
      line-height: 31px;
 }
 
@@ -695,7 +716,7 @@ button {
 }
 
 .latest_news .titlepage p {
-     color: #fff;
+     color: #000000;
      font-size: 17px;
      margin-top: 20px;
 }
