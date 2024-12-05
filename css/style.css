@@ -372,7 +372,7 @@ button {
      height: 66px;
      padding: 17px 0;
      background-color: #74747475;
-     color: #790000;
+     color: #ffffff;
      text-transform: uppercase;
      font-weight: bold;
      border-radius: 70px;
@@ -389,9 +389,9 @@ button {
 
 #myCarousel .carousel-control-prev,
 #myCarousel .carousel-control-next {
-     width: 36px;
-     height: 36px;
-     background: #444444;
+     width: 40px;
+     height: 40px;
+     background: #0008ff;
      opacity: 1;
      font-size: 25px;
      color: #fff;
@@ -403,8 +403,8 @@ button {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-     background: #a60000;
-     color: #fff;
+     background: #00ff26;
+     color: #ffffff;
      width: 57px;
      height: 57px;
      font-size: 30px;
